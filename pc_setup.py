@@ -12,7 +12,7 @@ spec = PodSpec(environment=environment)
 
 index_name = "lovecraft"
 existing_indexes = [
-    index_info["name"] for index_info in pc.list_indexes()
+    index_info["name"] for index_info in pc_client.list_indexes()
 ]
 
 # check if index already exists (it shouldn't if this is first time)
