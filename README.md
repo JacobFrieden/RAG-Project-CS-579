@@ -10,4 +10,4 @@ The text chunk size is set to <512>
 
 The embedding model is set to <bge-small-en-v1.5>
 
-**To Use:** after adding a valid PineCone API key, call `python load.py <your/path/filename.pdf> --index "index_name"` to perform a commandline file upload.
+**To Use:** after adding a valid PineCone API key to the source code, call `python load.py <your/path/filename.pdf> --index "index_name"` to perform a commandline file upload.
