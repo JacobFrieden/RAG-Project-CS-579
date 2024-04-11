@@ -13,4 +13,7 @@ The embedding model is set to <bge-small-en-v1.5>
 **To Use:** after adding a valid PineCone API key to the source code, call `python load.py <your/path/filename.pdf> --index "index_name"` to perform a commandline file upload.
 
 
-<iframe width="560" height="315" src="FIle Upload CLA Demo.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://github.com/JacobFrieden/RAG-Project-CS-579/assets/116682778/7581c1db-baee-4452-a1e2-bedc366c5a57
+
+
