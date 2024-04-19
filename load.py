@@ -5,6 +5,8 @@ from llama_index.core.node_parser import SentenceSplitter
 from llama_index.vector_stores.pinecone import PineconeVectorStore
 from pc_setup import pc_client, pc_vs_index
 from pathlib import Path
+
+from llama_index.core.retrievers import VectorIndexRetriever
     
 def main():
     parser = argparse.ArgumentParser(description="Upload a PDF file to the specified index")
@@ -24,7 +26,6 @@ def main():
     index = VectorStoreIndex.from_documents(
         document, transformations=[SentenceSplitter(chunk_size=512)], storage_context=storage_context
     )
-    
 
     print("PDF file uploaded successfully!")
 
