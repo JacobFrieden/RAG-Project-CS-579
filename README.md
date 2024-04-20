@@ -17,9 +17,9 @@ https://github.com/JacobFrieden/RAG-Project-CS-579/assets/116682778/7581c1db-bae
 ## Milestone 2: April 19
 We used Ollama's llama2 model as the llm backbone that handles the answering.
 
-We used <VectorIndexRetriever> to retrive top-k similar chunk that's relevent to the query and generated the answer using <RetrieverQueryEngine> based on the retrived information.
+We used *VectorIndexRetriever* to retrive top-k similar chunk that's relevent to the query and generated the answer using *RetrieverQueryEngine* based on the retrived information.
 
 **To Use:** after adding a valid PineCone API key to the source code, call `python query.py --query "What do you want to know?" --index "index_name"` to perform an answering generation based on the files contained in the pinecone vector store index.
 
-https://github.com/JacobFrieden/RAG-Project-CS-579/blob/main/Answer%20User%20Query%20Demo.mp4
+https://github.com/JacobFrieden/RAG-Project-CS-579/assets/45891316/3cb1b396-d7ed-4992-b956-ccc83a6d26d6
 
