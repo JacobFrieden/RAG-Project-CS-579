@@ -21,5 +21,7 @@ We used *VectorIndexRetriever* to retrive top-k similar chunk that's relevent to
 
 **To Use:** after adding a valid PineCone API key to the source code, call `python query.py --query "What do you want to know?" --index "index_name"` to perform an answering generation based on the files contained in the pinecone vector store index.
 
+Additionally, the user will need to either be running a local instance of Ollama with a llama2 model loaded, or otherwise take steps to modify the LLM used by the `llama_index` library for our query engine to run. 
+
 https://github.com/JacobFrieden/RAG-Project-CS-579/assets/45891316/3cb1b396-d7ed-4992-b956-ccc83a6d26d6
 
