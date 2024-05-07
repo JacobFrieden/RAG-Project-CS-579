@@ -28,6 +28,8 @@ https://github.com/JacobFrieden/RAG-Project-CS-579/assets/45891316/3cb1b396-d7ed
 ## Milestone 3: May 7th
 We used funix from https://github.com/TexteaInc/funix as the ui library for this project. To test, you have to intsall Ollama locally and install funix via pip.
 
+https://github.com/JacobFrieden/RAG-Project-CS-579/assets/45891316/ef7642f5-4149-4ad8-b1d2-a25851f834a7
+
 
 
 
