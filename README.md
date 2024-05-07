@@ -25,3 +25,9 @@ Additionally, the user will need to either be running a local instance of Ollama
 
 https://github.com/JacobFrieden/RAG-Project-CS-579/assets/45891316/3cb1b396-d7ed-4992-b956-ccc83a6d26d6
 
+## Milestone 3: May 7th
+We used funix from https://github.com/TexteaInc/funix as the ui library for this project. To test, you have to intsall Ollama locally and install funix via pip.
+
+
+
+
